@@ -1,0 +1,17 @@
+.flex-footer {
+    border-top: solid var(--primary-color) 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+
+}
+
+.flex-item-footer {
+    height: 250px;
+    margin-top: 3em;
+    flex-basis: 15%;
+    padding: 1em;
+    border: solid var(--primary-color) 1px;
+    text-align: center;
+}

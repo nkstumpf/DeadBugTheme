@@ -1,0 +1,45 @@
+.banner-img {
+    width: 100%;
+    
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0;
+
+}
+
+.banner-text {
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    font-size: var(--font-size-large);
+
+}
+
+.explore-btn {
+    width: 30%;
+    height: 50px;
+    font-family: var(--primary-font);
+    font-size: var(--font-size-normal);
+}
+
+.banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 600px;
+    height: 300px;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+
+}

@@ -1,0 +1,70 @@
+
+/* Varibales */
+
+:root {
+
+    /* colors */
+
+    --primary-color: black;
+    --secondary-color: whitesmoke;
+    --highlight-color: hotpink;
+
+    /* font stack */
+    --primary-font: 'Signika', sans-serif;
+    
+
+    /* font sizes */
+    --font-size-large: 2em;
+    --font-size-normal: 1em;
+}
+
+/* Styles */
+
+html {
+    margin-left: 10%; 
+    margin-right: 10%;
+}
+
+.main-content-container {
+    width: 100%;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    margin-bottom: 3em;
+    padding-bottom: 3em;
+    border-bottom: solid var(--primary-color) 1px;
+}
+
+.card-meta {
+    margin-left: 2em;
+}
+
+.read-more-btn {
+    margin-bottom: 3em;
+}
+
+.category-tag {
+
+}
+
+.card-img {
+
+}
+
+.post-date {
+
+}
+
+.flex-item-posts {
+    flex-basis: 70%;
+    text-align: left;
+    margin-top: 3em;
+}
+
+.copywrite-text {
+    font-family: var(--primary-font);
+}

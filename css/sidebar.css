@@ -1,0 +1,38 @@
+.flex-item-sidebar {
+    flex-basis: 25%;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.sidebar-box {
+    border: solid black 1px;
+    margin-bottom: 3em;
+    padding: 1em;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-mini {
+    display: flex;
+    text-align: left;
+    padding: 1em;
+}
+
+.card-mini-info {
+    margin-left: 1em;
+}
+
+.sidebar-thumb {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    border: grey solid 1px;
+}
+
+.bio-pic {
+    border-radius: 50%;
+}
+
+.categories {
+    text-align: left;
+    list-style: square;
+}

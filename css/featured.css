@@ -1,0 +1,28 @@
+.top-three-container {
+    width: 100%;
+    margin: 0;
+    padding-top: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-top-3 {
+    text-align: center;
+
+}
+
+.featured-text-box {
+    display: flex;
+    padding: 1px;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+
+.featured-text {
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+}
+
+.top-3-img {
+    
+}
